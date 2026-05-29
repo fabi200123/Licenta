@@ -10,12 +10,7 @@ interface ViewPatientProps {
 }
 
 const ViewPatientCT: React.FC<ViewPatientProps> = ({ patient, goBack }) => {
-    const {
-        name,
-        cnp,
-        doctors,
-        description,
-    } = patient;
+    const { name, cnp } = patient;
 
     return (
     <>
