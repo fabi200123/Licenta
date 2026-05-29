@@ -2,6 +2,7 @@ import React from 'react';
 import { MdArrowBack } from "react-icons/md";
 import { Patient as PatientModel } from "../models/patient";
 import stylePatient from "../styles/ViewPatient.module.css";
+import { getVisualizationUrl } from "../utils/dashAppUrl";
 
 interface ViewPatientProps {
     patient: PatientModel,
@@ -30,7 +31,7 @@ const ViewPatientCT: React.FC<ViewPatientProps> = ({ patient, goBack }) => {
         </label> <br/>
         <div style={{height: '80vh', width: '100vw', overflow: 'auto'}}>
         <iframe
-            src={"https://onco.devops-solutions.cloud:3001/visualize?cnp=" + cnp}
+            src={getVisualizationUrl(cnp)}
             title="Dash App"
             width="100%"
             height="100%"
