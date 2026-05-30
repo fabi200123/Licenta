@@ -1,0 +1,17 @@
+pdfplumber
+pymongo
+numpy
+scipy
+matplotlib
+SimpleITK
+pyradiomics==3.0.1
+pandas
+Pillow
+seaborn
+scikit-image
+pydicom<3
+opencv-python-headless
+tqdm
+plotly
+scikit-learn
+statsmodels

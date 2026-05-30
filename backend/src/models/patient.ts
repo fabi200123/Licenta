@@ -25,6 +25,7 @@ const hemoleucogramaSchema = new Schema({
     '(MPV) Volum mediu trombocitar': { type: String },
     'Placetocrit': { type: String },
     'date': { type: String },
+    'pdf_hash': { type: String },
 }, { _id: false }); // use _id: false to disable automatic id for this subdocument
 
 const patientSchema = new Schema({

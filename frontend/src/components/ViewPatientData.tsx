@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { MdArrowBack } from "react-icons/md";
 import { Patient as PatientModel } from "../models/patient";
 import { Button } from 'react-bootstrap';
@@ -9,6 +9,7 @@ import FileUploadDialog from './FileUploadDialog';
 import axios from "axios";
 import Table from 'react-bootstrap/Table';
 import Plot from 'react-plotly.js';
+import { toast } from 'react-toastify';
 import Select, { components } from 'react-select';
 
 export interface PatientData {
@@ -63,28 +64,48 @@ const ViewPatientData: React.FC<ViewPatientProps> = ({ patient, goBack }) => {
         setShowFileUploadDialog(true);
     };
 
-    const handleFilesUploaded = (files: File[]) => {
-        setFilesUploaded(files);
-        setShowFileUploadDialog(false);
-        goBack();
-    };
-
     const [patientData, setPatientData] = useState<PatientNoduleData | null>(null);
+    const [allColumns, setAllColumns] = useState<string[]>([]);
+
+    const fetchNoduleDetails = useCallback(async () => {
+        try {
+            const response = await axios.get(`/api/patients/${patient._id}`);
+            setPatientData(response.data);
+            if (response.data.Hemoleucograma_completa?.length) {
+                setAllColumns(Object.keys(response.data.Hemoleucograma_completa[0]));
+            }
+            return response.data;
+        } catch (error) {
+            console.error(error);
+            return null;
+        }
+    }, [patient._id]);
 
     useEffect(() => {
-        const fetchNoduleDetails = async () => {
-            try {
-                const response = await axios.get(`/api/patients/${patient._id}`);
-                setPatientData(response.data);
-                if (response.data.Hemoleucograma_completa) {
-                    setAllColumns(Object.keys(response.data.Hemoleucograma_completa[0]));
-                }
-            } catch (error) {
-                console.error(error);
-            }
-        };
         fetchNoduleDetails();
-    }, [patient._id]);
+    }, [fetchNoduleDetails]);
+
+    const handleFilesUploaded = async (files: File[]) => {
+        setFilesUploaded(files);
+        setShowFileUploadDialog(false);
+
+        const initialCount = patientData?.Hemoleucograma_completa?.length ?? 0;
+        toast.info('Processing PDF. New lab data will appear shortly.');
+
+        for (let attempt = 0; attempt < 15; attempt += 1) {
+            await new Promise((resolve) => setTimeout(resolve, 2000));
+            const latestData = await fetchNoduleDetails();
+            const latestCount = latestData?.Hemoleucograma_completa?.length ?? 0;
+            if (latestCount > initialCount) {
+                toast.success('PDF data added successfully.');
+                return;
+            }
+        }
+
+        toast.warn(
+            'PDF processing may still be running, or this file was already uploaded.'
+        );
+    };
 
     const [sortConfig, setSortConfig] = useState<{key: keyof PatientData, direction: 'ascending' | 'descending'} | null>(null);
 
@@ -121,7 +142,6 @@ const ViewPatientData: React.FC<ViewPatientProps> = ({ patient, goBack }) => {
         }
     }
 
-    const [allColumns, setAllColumns] = useState<string[]>([]);
     const [selectedColumns, setSelectedColumns] = useState<string[]>([]);
     const [selectedOptions, setSelectedOptions] = useState<any[]>([]);
 

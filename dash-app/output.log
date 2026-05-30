@@ -1,0 +1,335 @@
+nohup: ignoring input
+ * Serving Flask app 'dash-app-dynamic'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3001
+ * Running on http://10.10.0.22:3001
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 310-279-592
+10.10.0.22 - - [14/May/2025 12:39:31] "GET /visualize?cnp=1122334455052 HTTP/1.1" 200 -
+10.10.0.22 - - [14/May/2025 12:39:31] "GET /visualize/_dash-component-suites/dash/deps/polyfill@7.v3_0_4m1746997191.12.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [14/May/2025 12:39:31] "GET /visualize/_dash-component-suites/dash/deps/react-dom@18.v3_0_4m1746997191.3.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [14/May/2025 12:39:31] "GET /visualize/_dash-component-suites/dash/deps/react@18.v3_0_4m1746997191.3.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [14/May/2025 12:39:31] "GET /visualize/_dash-component-suites/dash/deps/prop-types@15.v3_0_4m1746997191.8.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [14/May/2025 12:39:31] "GET /visualize/_dash-component-suites/dash/dash_table/bundle.v6_0_2m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [14/May/2025 12:39:31] "GET /visualize/_dash-component-suites/dash/html/dash_html_components.v3_0_2m1746997191.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [14/May/2025 12:39:31] "GET /visualize/_dash-component-suites/dash/dcc/dash_core_components-shared.v3_0_6m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [14/May/2025 12:39:31] "GET /visualize/_dash-component-suites/dash/dcc/dash_core_components.v3_0_6m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [14/May/2025 12:39:31] "GET /visualize/_dash-component-suites/dash/dash-renderer/build/dash_renderer.v3_0_4m1746997191.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [14/May/2025 12:39:31] "GET /visualize/_dash-dependencies HTTP/1.1" 200 -
+10.10.0.22 - - [14/May/2025 12:39:31] "GET /visualize/_dash-layout HTTP/1.1" 200 -
+10.10.0.22 - - [14/May/2025 12:39:31] "GET /visualize/_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 200 -
+10.10.0.22 - - [14/May/2025 12:39:31] "GET /visualize/_dash-component-suites/dash/dcc/async-slider.js HTTP/1.1" 200 -
+10.10.0.22 - - [14/May/2025 12:39:31] "GET /visualize/_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1" 200 -
+10.10.0.22 - - [14/May/2025 12:39:31] "GET /visualize/_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [14/May/2025 12:39:33] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [14/May/2025 12:39:33] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [14/May/2025 12:39:33] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [15/May/2025 11:29:06] "GET /visualize?cnp=1122334455052 HTTP/1.1" 200 -
+10.10.0.22 - - [15/May/2025 11:29:06] "GET /visualize/_dash-component-suites/dash/deps/polyfill@7.v3_0_4m1746997191.12.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/May/2025 11:29:06] "GET /visualize/_dash-component-suites/dash/deps/react@18.v3_0_4m1746997191.3.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/May/2025 11:29:06] "GET /visualize/_dash-component-suites/dash/deps/prop-types@15.v3_0_4m1746997191.8.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/May/2025 11:29:06] "GET /visualize/_dash-component-suites/dash/dcc/dash_core_components-shared.v3_0_6m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/May/2025 11:29:06] "GET /visualize/_dash-component-suites/dash/deps/react-dom@18.v3_0_4m1746997191.3.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/May/2025 11:29:06] "GET /visualize/_dash-component-suites/dash/dash-renderer/build/dash_renderer.v3_0_4m1746997191.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/May/2025 11:29:06] "GET /visualize/_dash-component-suites/dash/html/dash_html_components.v3_0_2m1746997191.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/May/2025 11:29:06] "GET /visualize/_dash-component-suites/dash/dash_table/bundle.v6_0_2m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/May/2025 11:29:06] "GET /visualize/_dash-component-suites/dash/dcc/dash_core_components.v3_0_6m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/May/2025 11:29:07] "GET /visualize/_dash-dependencies HTTP/1.1" 200 -
+10.10.0.22 - - [15/May/2025 11:29:07] "GET /visualize/_dash-layout HTTP/1.1" 200 -
+10.10.0.22 - - [15/May/2025 11:29:07] "GET /visualize/_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/May/2025 11:29:07] "GET /visualize/_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/May/2025 11:29:07] "GET /visualize/_dash-component-suites/dash/dcc/async-slider.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/May/2025 11:29:07] "GET /visualize/_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/May/2025 11:29:08] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [15/May/2025 11:29:08] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [15/May/2025 11:29:08] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [16/May/2025 09:09:20] "[35m[1mGET / HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/fabian/Nodule-Data-Visualizer/Python App/onco/lib/python3.9/site-packages/flask/app.py", line 1498, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/fabian/Nodule-Data-Visualizer/Python App/onco/lib/python3.9/site-packages/flask/app.py", line 1476, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/fabian/Nodule-Data-Visualizer/Python App/onco/lib/python3.9/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/fabian/Nodule-Data-Visualizer/Python App/onco/lib/python3.9/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/fabian/Nodule-Data-Visualizer/Python App/onco/lib/python3.9/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/fabian/Nodule-Data-Visualizer/Python App/onco/lib/python3.9/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+TypeError: visualize() got an unexpected keyword argument 'path'
+10.10.0.22 - - [16/May/2025 09:09:20] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+10.10.0.22 - - [16/May/2025 09:09:20] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+10.10.0.22 - - [16/May/2025 09:09:20] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.10.0.22 - - [16/May/2025 13:54:27] "GET /visualize?cnp=1122334455052 HTTP/1.1" 200 -
+10.10.0.22 - - [16/May/2025 13:54:27] "GET /visualize/_dash-component-suites/dash/deps/polyfill@7.v3_0_4m1746997191.12.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [16/May/2025 13:54:27] "GET /visualize/_dash-component-suites/dash/deps/react-dom@18.v3_0_4m1746997191.3.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [16/May/2025 13:54:27] "GET /visualize/_dash-component-suites/dash/deps/react@18.v3_0_4m1746997191.3.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [16/May/2025 13:54:27] "GET /visualize/_dash-component-suites/dash/dash-renderer/build/dash_renderer.v3_0_4m1746997191.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [16/May/2025 13:54:27] "GET /visualize/_dash-component-suites/dash/dash_table/bundle.v6_0_2m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [16/May/2025 13:54:27] "GET /visualize/_dash-component-suites/dash/dcc/dash_core_components.v3_0_6m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [16/May/2025 13:54:27] "GET /visualize/_dash-component-suites/dash/dcc/dash_core_components-shared.v3_0_6m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [16/May/2025 13:54:27] "GET /visualize/_dash-component-suites/dash/html/dash_html_components.v3_0_2m1746997191.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [16/May/2025 13:54:27] "GET /visualize/_dash-component-suites/dash/deps/prop-types@15.v3_0_4m1746997191.8.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [16/May/2025 13:54:27] "GET /visualize/_dash-dependencies HTTP/1.1" 200 -
+10.10.0.22 - - [16/May/2025 13:54:27] "GET /visualize/_dash-layout HTTP/1.1" 200 -
+10.10.0.22 - - [16/May/2025 13:54:28] "GET /visualize/_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 200 -
+10.10.0.22 - - [16/May/2025 13:54:28] "GET /visualize/_dash-component-suites/dash/dcc/async-slider.js HTTP/1.1" 200 -
+10.10.0.22 - - [16/May/2025 13:54:28] "GET /visualize/_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1" 200 -
+10.10.0.22 - - [16/May/2025 13:54:28] "GET /visualize/_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [16/May/2025 13:54:29] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [16/May/2025 13:54:29] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [16/May/2025 13:54:29] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [18/May/2025 16:46:46] "GET /visualize?cnp=1122334455052 HTTP/1.1" 200 -
+10.10.0.22 - - [18/May/2025 16:46:46] "GET /visualize/_dash-component-suites/dash/deps/react@18.v3_0_4m1746997191.3.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [18/May/2025 16:46:46] "GET /visualize/_dash-component-suites/dash/deps/react-dom@18.v3_0_4m1746997191.3.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [18/May/2025 16:46:46] "GET /visualize/_dash-component-suites/dash/deps/prop-types@15.v3_0_4m1746997191.8.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [18/May/2025 16:46:46] "GET /visualize/_dash-component-suites/dash/html/dash_html_components.v3_0_2m1746997191.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [18/May/2025 16:46:46] "GET /visualize/_dash-component-suites/dash/dash-renderer/build/dash_renderer.v3_0_4m1746997191.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [18/May/2025 16:46:46] "GET /visualize/_dash-component-suites/dash/dcc/dash_core_components-shared.v3_0_6m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [18/May/2025 16:46:46] "GET /visualize/_dash-component-suites/dash/deps/polyfill@7.v3_0_4m1746997191.12.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [18/May/2025 16:46:46] "GET /visualize/_dash-component-suites/dash/dcc/dash_core_components.v3_0_6m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [18/May/2025 16:46:46] "GET /visualize/_dash-component-suites/dash/dash_table/bundle.v6_0_2m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [18/May/2025 16:46:46] "GET /visualize/_dash-dependencies HTTP/1.1" 200 -
+10.10.0.22 - - [18/May/2025 16:46:46] "GET /visualize/_dash-layout HTTP/1.1" 200 -
+10.10.0.22 - - [18/May/2025 16:46:46] "GET /visualize/_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 200 -
+10.10.0.22 - - [18/May/2025 16:46:46] "GET /visualize/_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1" 200 -
+10.10.0.22 - - [18/May/2025 16:46:46] "GET /visualize/_dash-component-suites/dash/dcc/async-slider.js HTTP/1.1" 200 -
+10.10.0.22 - - [18/May/2025 16:46:46] "GET /visualize/_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [18/May/2025 16:46:48] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [18/May/2025 16:46:48] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [18/May/2025 16:46:48] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [21/May/2025 20:51:47] "GET /visualize?cnp=1122334455052 HTTP/1.1" 200 -
+10.10.0.22 - - [21/May/2025 20:51:47] "GET /visualize/_dash-component-suites/dash/deps/polyfill@7.v3_0_4m1746997191.12.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [21/May/2025 20:51:47] "GET /visualize/_dash-component-suites/dash/deps/react-dom@18.v3_0_4m1746997191.3.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [21/May/2025 20:51:47] "GET /visualize/_dash-component-suites/dash/deps/prop-types@15.v3_0_4m1746997191.8.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [21/May/2025 20:51:47] "GET /visualize/_dash-component-suites/dash/dash_table/bundle.v6_0_2m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [21/May/2025 20:51:47] "GET /visualize/_dash-component-suites/dash/deps/react@18.v3_0_4m1746997191.3.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [21/May/2025 20:51:47] "GET /visualize/_dash-component-suites/dash/dcc/dash_core_components-shared.v3_0_6m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [21/May/2025 20:51:47] "GET /visualize/_dash-component-suites/dash/dash-renderer/build/dash_renderer.v3_0_4m1746997191.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [21/May/2025 20:51:47] "GET /visualize/_dash-component-suites/dash/dcc/dash_core_components.v3_0_6m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [21/May/2025 20:51:47] "GET /visualize/_dash-component-suites/dash/html/dash_html_components.v3_0_2m1746997191.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [21/May/2025 20:51:48] "GET /visualize/_dash-dependencies HTTP/1.1" 200 -
+10.10.0.22 - - [21/May/2025 20:51:48] "GET /visualize/_dash-layout HTTP/1.1" 200 -
+10.10.0.22 - - [21/May/2025 20:51:48] "GET /visualize/_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 200 -
+10.10.0.22 - - [21/May/2025 20:51:48] "GET /visualize/_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1" 200 -
+10.10.0.22 - - [21/May/2025 20:51:48] "GET /visualize/_dash-component-suites/dash/dcc/async-slider.js HTTP/1.1" 200 -
+10.10.0.22 - - [21/May/2025 20:51:48] "GET /visualize/_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [21/May/2025 20:51:49] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [21/May/2025 20:51:50] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [21/May/2025 20:51:50] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [12/Jun/2025 11:20:56] "GET /visualize?cnp=1122334455052 HTTP/1.1" 200 -
+10.10.0.22 - - [12/Jun/2025 11:20:56] "GET /visualize/_dash-component-suites/dash/deps/polyfill@7.v3_0_4m1746997191.12.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [12/Jun/2025 11:20:56] "GET /visualize/_dash-component-suites/dash/dcc/dash_core_components.v3_0_6m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [12/Jun/2025 11:20:56] "GET /visualize/_dash-component-suites/dash/deps/react-dom@18.v3_0_4m1746997191.3.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [12/Jun/2025 11:20:56] "GET /visualize/_dash-component-suites/dash/deps/react@18.v3_0_4m1746997191.3.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [12/Jun/2025 11:20:56] "GET /visualize/_dash-component-suites/dash/dash-renderer/build/dash_renderer.v3_0_4m1746997191.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [12/Jun/2025 11:20:56] "GET /visualize/_dash-component-suites/dash/dcc/dash_core_components-shared.v3_0_6m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [12/Jun/2025 11:20:56] "GET /visualize/_dash-component-suites/dash/dash_table/bundle.v6_0_2m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [12/Jun/2025 11:20:56] "GET /visualize/_dash-component-suites/dash/deps/prop-types@15.v3_0_4m1746997191.8.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [12/Jun/2025 11:20:56] "GET /visualize/_dash-component-suites/dash/html/dash_html_components.v3_0_2m1746997191.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [12/Jun/2025 11:20:56] "GET /visualize/_dash-layout HTTP/1.1" 200 -
+10.10.0.22 - - [12/Jun/2025 11:20:56] "GET /visualize/_dash-dependencies HTTP/1.1" 200 -
+10.10.0.22 - - [12/Jun/2025 11:20:56] "GET /visualize/_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 200 -
+10.10.0.22 - - [12/Jun/2025 11:20:56] "GET /visualize/_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1" 200 -
+10.10.0.22 - - [12/Jun/2025 11:20:56] "GET /visualize/_dash-component-suites/dash/dcc/async-slider.js HTTP/1.1" 200 -
+10.10.0.22 - - [12/Jun/2025 11:20:56] "GET /visualize/_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [12/Jun/2025 11:20:58] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [12/Jun/2025 11:20:58] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [12/Jun/2025 11:20:58] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 02:50:54] "GET /visualize?cnp=1122334455052 HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 02:50:54] "GET /visualize/_dash-component-suites/dash/deps/react@18.v3_0_4m1746997191.3.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 02:50:54] "GET /visualize/_dash-component-suites/dash/deps/polyfill@7.v3_0_4m1746997191.12.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 02:50:54] "GET /visualize/_dash-component-suites/dash/deps/react-dom@18.v3_0_4m1746997191.3.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 02:50:54] "GET /visualize/_dash-component-suites/dash/dash-renderer/build/dash_renderer.v3_0_4m1746997191.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 02:50:54] "GET /visualize/_dash-component-suites/dash/dcc/dash_core_components-shared.v3_0_6m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 02:50:54] "GET /visualize/_dash-component-suites/dash/deps/prop-types@15.v3_0_4m1746997191.8.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 02:50:54] "GET /visualize/_dash-component-suites/dash/html/dash_html_components.v3_0_2m1746997191.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 02:50:54] "GET /visualize/_dash-component-suites/dash/dash_table/bundle.v6_0_2m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 02:50:54] "GET /visualize/_dash-component-suites/dash/dcc/dash_core_components.v3_0_6m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 02:50:54] "GET /visualize/_dash-dependencies HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 02:50:54] "GET /visualize/_dash-layout HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 02:50:54] "GET /visualize/_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 02:50:54] "GET /visualize/_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 02:50:54] "GET /visualize/_dash-component-suites/dash/dcc/async-slider.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 02:50:54] "GET /visualize/_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 02:50:56] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 02:50:56] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 02:50:56] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:09:23] "GET /visualize?cnp=1122334455052 HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:09:23] "GET /visualize/_dash-component-suites/dash/deps/polyfill@7.v3_0_4m1746997191.12.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:09:23] "GET /visualize/_dash-component-suites/dash/deps/react-dom@18.v3_0_4m1746997191.3.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:09:23] "GET /visualize/_dash-component-suites/dash/dcc/dash_core_components-shared.v3_0_6m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:09:23] "GET /visualize/_dash-component-suites/dash/dash-renderer/build/dash_renderer.v3_0_4m1746997191.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:09:23] "GET /visualize/_dash-component-suites/dash/deps/react@18.v3_0_4m1746997191.3.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:09:23] "GET /visualize/_dash-component-suites/dash/deps/prop-types@15.v3_0_4m1746997191.8.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:09:23] "GET /visualize/_dash-component-suites/dash/dcc/dash_core_components.v3_0_6m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:09:23] "GET /visualize/_dash-component-suites/dash/dash_table/bundle.v6_0_2m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:09:23] "GET /visualize/_dash-component-suites/dash/html/dash_html_components.v3_0_2m1746997191.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:09:23] "GET /visualize/_dash-dependencies HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:09:23] "GET /visualize/_dash-layout HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:09:24] "GET /visualize/_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:09:24] "GET /visualize/_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:09:24] "GET /visualize/_dash-component-suites/dash/dcc/async-slider.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:09:24] "GET /visualize/_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:09:25] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:09:25] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:09:25] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:49:28] "GET /visualize?cnp=1122334455052 HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:49:28] "GET /visualize/_dash-component-suites/dash/deps/polyfill@7.v3_0_4m1746997191.12.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:49:28] "GET /visualize/_dash-component-suites/dash/deps/react@18.v3_0_4m1746997191.3.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:49:28] "GET /visualize/_dash-component-suites/dash/deps/prop-types@15.v3_0_4m1746997191.8.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:49:28] "GET /visualize/_dash-component-suites/dash/dash_table/bundle.v6_0_2m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:49:28] "GET /visualize/_dash-component-suites/dash/dcc/dash_core_components.v3_0_6m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:49:28] "GET /visualize/_dash-component-suites/dash/deps/react-dom@18.v3_0_4m1746997191.3.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:49:28] "GET /visualize/_dash-component-suites/dash/html/dash_html_components.v3_0_2m1746997191.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:49:28] "GET /visualize/_dash-component-suites/dash/dash-renderer/build/dash_renderer.v3_0_4m1746997191.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:49:28] "GET /visualize/_dash-component-suites/dash/dcc/dash_core_components-shared.v3_0_6m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:49:29] "GET /visualize/_dash-layout HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:49:29] "GET /visualize/_dash-dependencies HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:49:29] "GET /visualize/_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:49:29] "GET /visualize/_dash-component-suites/dash/dcc/async-slider.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:49:29] "GET /visualize/_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:49:29] "GET /visualize/_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:49:30] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:49:35] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 13:49:35] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 14:10:08] "GET /visualize?cnp=1122334455052 HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 14:10:08] "GET /visualize/_dash-component-suites/dash/deps/polyfill@7.v3_0_4m1746997191.12.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 14:10:08] "GET /visualize/_dash-component-suites/dash/deps/react@18.v3_0_4m1746997191.3.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 14:10:08] "GET /visualize/_dash-component-suites/dash/deps/react-dom@18.v3_0_4m1746997191.3.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 14:10:09] "GET /visualize/_dash-component-suites/dash/deps/prop-types@15.v3_0_4m1746997191.8.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 14:10:09] "GET /visualize/_dash-component-suites/dash/html/dash_html_components.v3_0_2m1746997191.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 14:10:09] "GET /visualize/_dash-component-suites/dash/dcc/dash_core_components.v3_0_6m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 14:10:09] "GET /visualize/_dash-component-suites/dash/dash_table/bundle.v6_0_2m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 14:10:09] "GET /visualize/_dash-component-suites/dash/dcc/dash_core_components-shared.v3_0_6m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 14:10:09] "GET /visualize/_dash-component-suites/dash/dash-renderer/build/dash_renderer.v3_0_4m1746997191.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 14:10:09] "GET /visualize/_dash-dependencies HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 14:10:09] "GET /visualize/_dash-layout HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 14:10:09] "GET /visualize/_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 14:10:09] "GET /visualize/_dash-component-suites/dash/dcc/async-slider.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 14:10:09] "GET /visualize/_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 14:10:09] "GET /visualize/_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [15/Jun/2025 14:10:10] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [19/Jun/2025 13:16:41] "GET /visualize?cnp=1122334455052 HTTP/1.1" 200 -
+10.10.0.22 - - [19/Jun/2025 13:16:41] "GET /visualize/_dash-component-suites/dash/deps/polyfill@7.v3_0_4m1746997191.12.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [19/Jun/2025 13:16:41] "GET /visualize/_dash-component-suites/dash/deps/react@18.v3_0_4m1746997191.3.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [19/Jun/2025 13:16:41] "GET /visualize/_dash-component-suites/dash/html/dash_html_components.v3_0_2m1746997191.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [19/Jun/2025 13:16:41] "GET /visualize/_dash-component-suites/dash/deps/react-dom@18.v3_0_4m1746997191.3.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [19/Jun/2025 13:16:41] "GET /visualize/_dash-component-suites/dash/deps/prop-types@15.v3_0_4m1746997191.8.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [19/Jun/2025 13:16:41] "GET /visualize/_dash-component-suites/dash/dcc/dash_core_components.v3_0_6m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [19/Jun/2025 13:16:41] "GET /visualize/_dash-component-suites/dash/dash-renderer/build/dash_renderer.v3_0_4m1746997191.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [19/Jun/2025 13:16:41] "GET /visualize/_dash-component-suites/dash/dcc/dash_core_components-shared.v3_0_6m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [19/Jun/2025 13:16:41] "GET /visualize/_dash-component-suites/dash/dash_table/bundle.v6_0_2m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [19/Jun/2025 13:16:41] "GET /visualize/_dash-dependencies HTTP/1.1" 200 -
+10.10.0.22 - - [19/Jun/2025 13:16:41] "GET /visualize/_dash-layout HTTP/1.1" 200 -
+10.10.0.22 - - [19/Jun/2025 13:16:41] "GET /visualize/_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 200 -
+10.10.0.22 - - [19/Jun/2025 13:16:41] "GET /visualize/_dash-component-suites/dash/dcc/async-slider.js HTTP/1.1" 200 -
+10.10.0.22 - - [19/Jun/2025 13:16:41] "GET /visualize/_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1" 200 -
+10.10.0.22 - - [19/Jun/2025 13:16:41] "GET /visualize/_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [19/Jun/2025 13:16:43] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [19/Jun/2025 13:16:43] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [19/Jun/2025 13:16:43] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [19/Jun/2025 13:16:47] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [19/Jun/2025 13:16:49] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [19/Jun/2025 13:16:49] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [19/Jun/2025 13:16:50] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [19/Jun/2025 13:16:50] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [19/Jun/2025 13:16:50] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [19/Jun/2025 13:16:50] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [25/Jun/2025 10:56:56] "GET /visualize?cnp=1122334455052 HTTP/1.1" 200 -
+10.10.0.22 - - [25/Jun/2025 10:56:56] "GET /visualize/_dash-component-suites/dash/deps/polyfill@7.v3_0_4m1746997191.12.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [25/Jun/2025 10:56:56] "GET /visualize/_dash-component-suites/dash/deps/react-dom@18.v3_0_4m1746997191.3.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [25/Jun/2025 10:56:56] "GET /visualize/_dash-component-suites/dash/deps/react@18.v3_0_4m1746997191.3.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [25/Jun/2025 10:56:56] "GET /visualize/_dash-component-suites/dash/dash_table/bundle.v6_0_2m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [25/Jun/2025 10:56:56] "GET /visualize/_dash-component-suites/dash/deps/prop-types@15.v3_0_4m1746997191.8.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [25/Jun/2025 10:56:56] "GET /visualize/_dash-component-suites/dash/dcc/dash_core_components.v3_0_6m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [25/Jun/2025 10:56:56] "GET /visualize/_dash-component-suites/dash/dcc/dash_core_components-shared.v3_0_6m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [25/Jun/2025 10:56:56] "GET /visualize/_dash-component-suites/dash/html/dash_html_components.v3_0_2m1746997191.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [25/Jun/2025 10:56:56] "GET /visualize/_dash-component-suites/dash/dash-renderer/build/dash_renderer.v3_0_4m1746997191.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [25/Jun/2025 10:56:56] "GET /visualize/_dash-layout HTTP/1.1" 200 -
+10.10.0.22 - - [25/Jun/2025 10:56:56] "GET /visualize/_dash-dependencies HTTP/1.1" 200 -
+10.10.0.22 - - [25/Jun/2025 10:56:56] "GET /visualize/_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 200 -
+10.10.0.22 - - [25/Jun/2025 10:56:56] "GET /visualize/_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1" 200 -
+10.10.0.22 - - [25/Jun/2025 10:56:56] "GET /visualize/_dash-component-suites/dash/dcc/async-slider.js HTTP/1.1" 200 -
+10.10.0.22 - - [25/Jun/2025 10:56:56] "GET /visualize/_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [25/Jun/2025 10:56:58] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [25/Jun/2025 10:56:58] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [25/Jun/2025 10:56:58] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 02:13:55] "[35m[1mGET / HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/fabian/Nodule-Data-Visualizer/Python App/onco/lib/python3.9/site-packages/flask/app.py", line 1498, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/fabian/Nodule-Data-Visualizer/Python App/onco/lib/python3.9/site-packages/flask/app.py", line 1476, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/fabian/Nodule-Data-Visualizer/Python App/onco/lib/python3.9/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/fabian/Nodule-Data-Visualizer/Python App/onco/lib/python3.9/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/fabian/Nodule-Data-Visualizer/Python App/onco/lib/python3.9/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/fabian/Nodule-Data-Visualizer/Python App/onco/lib/python3.9/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+TypeError: visualize() got an unexpected keyword argument 'path'
+10.10.0.22 - - [27/Jun/2025 02:13:55] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 02:13:55] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 02:13:55] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 02:15:39] "[35m[1mGET / HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/fabian/Nodule-Data-Visualizer/Python App/onco/lib/python3.9/site-packages/flask/app.py", line 1498, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/fabian/Nodule-Data-Visualizer/Python App/onco/lib/python3.9/site-packages/flask/app.py", line 1476, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/fabian/Nodule-Data-Visualizer/Python App/onco/lib/python3.9/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/fabian/Nodule-Data-Visualizer/Python App/onco/lib/python3.9/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/fabian/Nodule-Data-Visualizer/Python App/onco/lib/python3.9/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/fabian/Nodule-Data-Visualizer/Python App/onco/lib/python3.9/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+TypeError: visualize() got an unexpected keyword argument 'path'
+10.10.0.22 - - [27/Jun/2025 02:15:39] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+10.10.0.22 - - [27/Jun/2025 02:15:39] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+10.10.0.22 - - [27/Jun/2025 02:15:49] "GET /visualize?cnp=1122334455052 HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 02:15:49] "GET /visualize/_dash-component-suites/dash/dcc/dash_core_components-shared.v3_0_6m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 02:15:49] "GET /visualize/_dash-component-suites/dash/dcc/dash_core_components.v3_0_6m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 02:15:49] "GET /visualize/_dash-component-suites/dash/html/dash_html_components.v3_0_2m1746997191.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 02:15:49] "GET /visualize/_dash-component-suites/dash/deps/polyfill@7.v3_0_4m1746997191.12.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 02:15:49] "GET /visualize/_dash-component-suites/dash/dash_table/bundle.v6_0_2m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 02:15:49] "GET /visualize/_dash-component-suites/dash/deps/prop-types@15.v3_0_4m1746997191.8.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 02:15:49] "GET /visualize/_dash-component-suites/dash/deps/react@18.v3_0_4m1746997191.3.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 02:15:49] "GET /visualize/_dash-component-suites/dash/deps/react-dom@18.v3_0_4m1746997191.3.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 02:15:49] "GET /visualize/_dash-component-suites/dash/dash-renderer/build/dash_renderer.v3_0_4m1746997191.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 02:15:49] "GET /visualize/_dash-dependencies HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 02:15:50] "GET /visualize/_dash-layout HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 02:15:50] "GET /visualize/_dash-component-suites/dash/dcc/async-slider.js HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 02:15:50] "GET /visualize/_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 02:15:50] "GET /visualize/_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 02:15:50] "GET /visualize/_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 02:15:51] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 02:15:52] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 02:15:52] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 15:15:25] "GET /visualize?cnp=1122334455052 HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 15:15:25] "GET /visualize/_dash-component-suites/dash/deps/react-dom@18.v3_0_4m1746997191.3.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 15:15:25] "GET /visualize/_dash-component-suites/dash/dcc/dash_core_components-shared.v3_0_6m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 15:15:25] "GET /visualize/_dash-component-suites/dash/dcc/dash_core_components.v3_0_6m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 15:15:25] "GET /visualize/_dash-component-suites/dash/deps/polyfill@7.v3_0_4m1746997191.12.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 15:15:25] "GET /visualize/_dash-component-suites/dash/dash_table/bundle.v6_0_2m1746997191.js HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 15:15:25] "GET /visualize/_dash-component-suites/dash/html/dash_html_components.v3_0_2m1746997191.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 15:15:25] "GET /visualize/_dash-component-suites/dash/deps/react@18.v3_0_4m1746997191.3.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 15:15:25] "GET /visualize/_dash-component-suites/dash/deps/prop-types@15.v3_0_4m1746997191.8.1.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 15:15:25] "GET /visualize/_dash-component-suites/dash/dash-renderer/build/dash_renderer.v3_0_4m1746997191.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 15:15:26] "GET /visualize/_dash-dependencies HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 15:15:26] "GET /visualize/_dash-layout HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 15:15:26] "GET /visualize/_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 15:15:26] "GET /visualize/_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 15:15:26] "GET /visualize/_dash-component-suites/dash/dcc/async-slider.js HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 15:15:26] "GET /visualize/_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 15:15:27] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 15:15:28] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
+10.10.0.22 - - [27/Jun/2025 15:15:28] "POST /visualize/_dash-update-component HTTP/1.1" 200 -
